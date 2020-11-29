@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body onload="getLocalData()">
+    <div class="container">
+      <h1 class="tittle">To Do List</h1>
+      <h6>. Click to strike</h6>
+      <h6>. Double-Click to delete</h6>
+      <div class="cont">
+        <input type="text" id="inputF" />
+        <button id="addList" name="addList">Add</button>
+        <button id="addList1">Add As Priority</button>
+      </div>
+      <div class="list" id="listCont" name="list"></div>
+    </div>
+  </body>
+  <script src="./src/main.js"></script>
+</html>
